@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "BookLibrary_Angular:build:production"
+              "buildTarget": "BookLibrary_Angular:build:production"
             },
             "development": {
-              "browserTarget": "BookLibrary_Angular:build:development"
+              "buildTarget": "BookLibrary_Angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "BookLibrary_Angular:build"
+            "buildTarget": "BookLibrary_Angular:build"
           }
         },
         "test": {

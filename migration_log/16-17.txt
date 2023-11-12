@@ -1,0 +1,112 @@
+ng version
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 16.2.10
+Node: 20.9.0 (Unsupported)
+Package Manager: npm 10.2.3
+OS: win32 x64
+
+Angular: 16.2.12
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1602.10
+@angular-devkit/build-angular   16.2.10
+@angular-devkit/core            16.2.10
+@angular-devkit/schematics      16.2.10
+@angular/cli                    16.2.10
+@schematics/angular             16.2.10
+rxjs                            7.8.1
+typescript                      5.1.6
+zone.js                         0.13.3
+
+Warning: The current version of Node (20.9.0) is not supported by Angular.
+PS C:\ang\BookLibrary_Angular> ng update @angular/core@17 @angular/cli@17
+
+ng update @angular/core@17 @angular/cli@17
+The installed Angular CLI version is outdated.
+Installing a temporary Angular CLI versioned 17.0.0 to perform the update.
+✔ Packages successfully installed.
+Using package manager: npm
+Collecting installed dependencies...
+Found 26 dependencies.
+Fetching dependency metadata from registry...
+    Updating package.json with dependency @angular-devkit/build-angular @ "17.0.0" (was "16.2.10")...
+    Updating package.json with dependency @angular/cli @ "17.0.0" (was "16.2.10")...
+    Updating package.json with dependency @angular/compiler-cli @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency typescript @ "5.2.2" (was "5.1.6")...
+    Updating package.json with dependency @angular/animations @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/common @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/compiler @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/core @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/platform-browser @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/platform-browser-dynamic @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency @angular/router @ "17.0.2" (was "16.2.12")...
+    Updating package.json with dependency zone.js @ "0.14.2" (was "0.13.3")...
+UPDATE package.json (1249 bytes)
+✔ Packages successfully installed.
+** Executing migrations of package '@angular/cli' **
+
+> Replace usages of '@nguniversal/builders' with '@angular-devkit/build-angular'.
+  Migration completed (No changes made).
+
+> Replace usages of '@nguniversal/' packages with '@angular/ssr'.
+  Migration completed (No changes made).
+
+> Replace deprecated options in 'angular.json'.
+UPDATE angular.json (2903 bytes)
+  Migration completed (1 file modified).
+
+** Executing migrations of package '@angular/core' **
+
+> Angular v17 introduces a new control flow syntax that uses the @ and } characters.
+  This migration replaces the existing usages with their corresponding HTML entities.
+  Migration completed (No changes made).
+
+> Updates `TransferState`, `makeStateKey`, `StateKey` imports from `@angular/platform-browser` to `@angular/core`.
+  Migration completed (No changes made).
+
+> CompilerOption.useJit and CompilerOption.missingTranslation are unused under Ivy.
+  This migration removes their usage
+  Migration completed (No changes made).
+
+PS C:\ang\BookLibrary_Angular> ng version
+
+ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 17.0.0
+Node: 20.9.0
+Package Manager: npm 10.2.3
+OS: win32 x64
+
+Angular: 17.0.2
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1700.0
+@angular-devkit/build-angular   17.0.0
+@angular-devkit/core            17.0.0
+@angular-devkit/schematics      17.0.0
+@angular/cli                    17.0.0
+@schematics/angular             17.0.0
+rxjs                            7.8.1
+typescript                      5.2.2
+zone.js                         0.14.2
